@@ -1,0 +1,497 @@
+.carosel_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-color: whitesmoke;
+  
+    }
+    .img_caro{
+    
+    height: 470px;
+    width: 100%;
+    
+    }
+    
+    .carosel_menuMenu{
+    margin-top: 30px;
+    margin: 10px;
+    border: 0px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+    /* box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75); */
+    cursor: pointer;
+    transition:transform 100ms ease-in;
+    width: 600px;
+ 
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    
+    background-color: white;
+    }
+    
+    .carosel_menuMenu:hover{
+    transform: scale(1.04);
+    
+    
+    }
+    .carosel_menuMenuchild{
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.3;
+
+    }
+    .carosel_menuCarosel{
+    margin-left: 10px;
+    height: 370px;
+    width: 100%;
+    
+    }
+    .carosel_menuMenuchild>.MuiSvgIcon-root{
+    color: #333;
+    font-size: 16px;
+    margin: 1px;
+    
+    }
+    .carosel_menuMenuchild>p{
+    color: #333;
+    font-size: 15px;
+    margin: 1.43px;
+    }
+    .foryou__drop{
+        display: flex;
+         background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 300px;
+        width: 100%;
+         z-index: 100;
+   
+    
+     margin-right: 0px;
+     
+     }
+     .foryou__drop1{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 400px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+     .foryou__drop2{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 330px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop3{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 250px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop4{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 170px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop5{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 100px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop6{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: 30px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop7{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: -40px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      /* DESKTOP */
+      .foryou__drop8{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: -110px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+     
+     .foryou__drop9{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: -180px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop10{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: -250px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+      .foryou__drop11{
+         display: flex;
+          background-color: white;
+          position: absolute;
+          border-radius: 5px;
+          margin-top: -330px;
+         width: 100%;
+          z-index: 100;
+      height: 500px;
+      overflow: anywhere;
+      margin-right: 100px;
+      
+      }
+     .child_desc{
+     
+      justify-content: center;
+     align-items: center;
+     justify-content: center;
+     
+     }
+     
+     .child_desc>p{
+         display: block;
+       text-align: center;
+         margin: 5px;
+         align-items: center;
+         justify-content: center;
+         border-radius: 10px;
+         font-size: 13px;
+         margin-right: 0px;
+         background-color: #f1f5f8;
+         color: gray;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .child_header>h3{
+         display: flex;
+       
+         align-items: center;
+         margin: 10px;
+         font-size: 13px;
+         color: brown;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+    
+    
+    /* MEDIA QUERIES*************************************** */
+    
+    @media(max-width:700px){
+    .carosel_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-color: whitesmoke;
+    flex-direction: column-reverse;
+    margin-top: 90px;
+    }
+    .carosel_menuMenu:hover{
+        transform: scale(1.00);
+        
+      
+        }
+        .child_desc>p{
+            display: block;
+          text-align: center;
+            margin: 5px;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            font-size: 15px;
+            margin-right: 4px;
+            background-color: #f1f5f8;
+            color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    .foryou__drop{
+        display: flex;
+         background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 470px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop1{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 395px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop2{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 320px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop3{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 245px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop4{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 170px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop5{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 20px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop6{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: 20px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     cursor: pointer;
+     }
+    .foryou__drop7{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: -55px;
+        width: 100%;
+         z-index: 10;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     
+     }
+    .foryou__drop8{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: -130px;
+        width: 100%;
+         z-index: 10;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     
+     }
+    .foryou__drop9{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: -205px;
+        width: 100%;
+         z-index: 10;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     
+     }
+     .foryou__drop10{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: -280px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     
+     }
+     .foryou__drop11{
+        display: flex;
+        background-color: white;
+         position: absolute;
+         border-radius: 5px;
+         margin-top: -360px;
+        width: 100%;
+         z-index: 100;
+     height: 500px;
+     overflow: anywhere;
+     margin-right: 100px;
+     
+     }
+    .child_desc{
+    
+    align-items: center;
+    
+    
+    }
+    .carosel_menuCarosel{
+    margin-left: 0px;
+    height: 470px;
+    width: 100%;
+    
+    }
+    
+    .img_caro{
+    
+    height: 200px;
+    width: 100%;
+    
+    }
+    .carosel_menuMenu{
+    margin-top: -270px;
+    width: 100%;
+    position:relative;
+    }
+    .carosel_menuMenuchild>p{
+    color: #333;
+    font-size: 18px;
+    margin-left: 15px;
+    
+    
+    }  
+    .carosel_menuMenuchild{
+     border-bottom: 1px solid rgba(211, 211, 211, 0.445);
+        
+        
+        }  
+    .carosel_menuMenuchild>.MuiSvgIcon-root{
+        color: #333;
+        font-size: 18px;
+        margin-right: 15px;
+        
+        }              
+    }
+    
+    
+    /* MEDIA UP///////////////////////////////////////// */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

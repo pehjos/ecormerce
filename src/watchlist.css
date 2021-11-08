@@ -1,0 +1,10 @@
+.watch_list{
+    margin-top: 330px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    z-index: 30;
+    text-align: center;
+    
+    }

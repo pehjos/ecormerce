@@ -1,0 +1,127 @@
+.quickac__top{
+    position: fixed;
+    bottom: 12px;
+    left: 88.5%;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background-color:  crimson;
+    border-radius: 50%;
+    margin: 2px;
+    z-index: 100;
+  }
+  .quickac__top>.MuiSvgIcon-root{
+   align-items: baseline;
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+   margin: 4px;
+   border-radius: 50%;
+  }
+  .quickac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  align-items: baseline;
+ 
+
+  }
+  .quickac__add{
+    position: fixed;
+    bottom: 100px;
+    left: 87%;
+    z-index: 10;
+    align-items: center;
+    justify-content: center ;
+    box-shadow: 2px,2px,5px rgb(0, 0, 0,0.25);
+    height: 40px;
+    width: 40px;
+    background-color:  #2196f3;
+    border-radius: 900%;
+    color: white;
+    margin: 2px;
+  }
+
+  .quickac__add>.MuiSvgIcon-root{
+   display: flex;
+   flex: 1;
+border-radius: 50%;
+align-items: center;
+font-size: 12;
+margin: 8px;
+  }
+
+  .news__comentry>.MuiSvgIcon-root{
+    position: fixed;
+    bottom: 12px;
+    z-index: 100;
+    left: 10%;
+    width: 32px;
+    height: 32px;
+    color:#2196f3 ;
+  background-image: linear-gradient(yellow,orange,blue);
+    border-radius: 50%;
+    margin: 2px;
+    box-shadow: 0px 10px 53px 0px rgba(77, 39, 39, 0.3) !important;
+  }
+  @media(min-width:700px){
+   
+    .news__comentry>.MuiSvgIcon-root{
+      position: fixed;
+      bottom: 12px;
+      left: 50%;
+      width: 32px;
+      height: 32px;
+      color:#f0c14b ;
+      background-color: whitesmoke;
+      border-radius: 50%;
+      margin: 2px;
+      box-shadow: 0px 10px 53px 0px rgba(77, 39, 39, 0.3) !important;
+      z-index: 10;
+    }
+    .quickac__add{
+      position: fixed;
+      bottom: 12px;
+      left: 60%;
+      z-index: 10;
+      align-items: center;
+      justify-content: center ;
+      box-shadow: 2px,2px,5px rgb(0, 0, 0,0.25);
+      height: 40px;
+      width: 40px;
+      background-color:  #2196f3;
+      border-radius: 900%;
+      color: white;
+      margin: 2px;
+    }
+
+  }
+ /* @media(max-width:600px){
+  .quickac__top{
+    position: fixed;
+    bottom: 12px;
+    left: 88.5%;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+    background-color:  crimson;
+    border-radius: 50%;
+    margin: 2px;
+    z-index: 100;
+    overflow: hidden;
+  }
+  .quickac__top>.MuiSvgIcon-root{
+   align-items: baseline;
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+   margin: 4px;
+   border-radius: 50%;
+   font-size: 35px;
+  }
+
+
+
+ }
+
+  */

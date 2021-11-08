@@ -1,0 +1,34 @@
+.promotion1 {
+	position: relative;
+	background-image: url('images/PromoBanner.jpg');
+	background-size: cover;
+	top: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	padding: 20px;
+	max-height: 250px;
+}
+
+.promotion__left > p {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	height: 25px;
+	border-radius: 30px;
+	color: tomato;
+	font-weight: 700;
+	margin: 20px 0 0 50px;
+	max-width: 130px;
+}
+
+.promotion__ad{
+	max-width: 250px;
+}
+
+.promotion__right {
+	display: flex;
+}

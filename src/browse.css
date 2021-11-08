@@ -1,0 +1,125 @@
+.browse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    background-color: whites;
+    width: 100%;
+  
+   
+    flex-direction: column;
+    }
+    
+    .browseitems>h4{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin: 10px;
+    }
+    .browseitems>h2{
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+    }
+    .browseitems>p{
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    padding: 1px;
+    border: 2px solid crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+    margin: 10px;
+    }
+    .browseitemsch>.MuiSvgIcon-root{
+    background-color: rgba(240, 128, 128, 0.644)
+    ;
+    margin: 10px;
+    color: rgb(26, 22, 16);
+    font-size: 30px;
+    
+    
+    border-radius: 50px;
+    }
+    .browseitems{
+    
+    
+     
+      flex-direction: row;
+        justify-content: space-between;
+        color: red;
+    
+    
+    }
+    .browse>p{
+    font-size: 20px;
+    font-weight: 700;
+    color: crimson;
+    text-align: center;
+    }
+    .browseitemsimg>p{
+    
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+    margin: 10px;
+    }
+    .browseitemsimg>h5{
+    
+        font-size: 15px;
+        font-weight: 700;
+        color: black;
+    margin: 10px;padding: 2px;
+    color: crimson;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+    
+    }
+    .browseitemsimg>h5>.MuiSvgIcon-root{
+       color: white;
+       font-size: 15px;
+        }
+    /* @media(max-width:600px){
+    
+    .browse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    background-color: orange;
+    min-width: 210%;
+    }
+    .browseitems>h4{
+    color: crimson;
+    font-size: 40px;
+    margin: 10px;
+    }
+    .browseitems>h2{
+    color: crimson;
+    font-size: 40px;
+    margin: 10px;
+    }
+    .browseitems>p{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    padding: 1px;
+    border: 2px solid crimson;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .browseitems{
+    margin: 0;
+    
+    }
+    } */

@@ -1,0 +1,248 @@
+/* 
+
+
+.card__header1{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: -15px;
+    margin-top: -20px;
+    }
+    .card__headerleft1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+    }
+    .card__headerleft1>.MuiSvgIcon-root{
+    color:  #2196f3;
+    font-size: 18px;
+    
+    
+    }
+    .card__headerleft1>p{
+        font-weight: 900;
+        font-family: 'Commissioner', sans-serif;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Quicksand', sans-serif;
+        justify-content: baseline;
+        text-decoration: none;
+        color:teal;
+        overflow:hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        text-overflow:ellipsis;
+        -webkit-box-orient: vertical;
+        white-space: wrap;
+        align-items: flex-start;
+        display: flex;
+        flex: 1;text-align: left;
+        margin: 6px;
+        width: 180px;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select:none;
+    }
+    
+    
+    .card__headerright1{
+    
+    display: flex;
+    
+    align-items: center;
+    margin: 10px;
+    
+    
+    }
+    .card__headerright1>p{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: baseline;
+    color: rgb(233, 174, 65);
+    font-size: 13px;
+    align-items: flex-start;
+    display: flex;
+    flex: 1;text-align: left;
+    margin: 10px;
+    
+    }
+    .card__headerright1>img{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    
+    }
+    .card1>.MuiCard-root{
+    background-color: white;
+    
+    }
+    .card1{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-bottom: -6px;
+    
+    }
+    .cardmain1{
+    width: 100%;
+    background-color: #111;
+    }
+    @media(max-width:700px){
+    .card__image1>img{
+    height: 600px;
+    object-fit: contain;
+    width: 100%;
+    
+    }
+    }
+    .card__image1>video{
+    height: 450px;
+    object-fit: fill;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    }
+    
+    .card__content1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: start;
+    
+    }
+    
+    .card__contenttitle1>marquee{
+        font-family: 'Commissioner', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        overflow:hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        text-overflow:ellipsis;
+        -webkit-box-orient: vertical;
+        white-space: wrap;
+        justify-content: baseline;
+        color:thistle;
+        font-size: 15px;
+        overflow-wrap: anywhere;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: -90px;
+        flex: 1;text-align: left;
+        position: absolute;
+    
+    
+    
+    
+    }
+    .card__contentdescription1>p{
+        font-family: 'Commissioner', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow:ellipsis;
+    -webkit-box-orient: vertical;
+    white-space: wrap;
+    justify-content: baseline;
+    color:whitesmoke;
+    font-size: 15px;
+    overflow-wrap: anywhere;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: -70px;
+    flex: 1;text-align: left;
+    position: absolute;
+    }
+    
+    
+    
+    .card__footericonscontent1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    width: 65px;
+    border-radius: 40px;
+    }
+    
+    .card__footericonscontent1>.MuiSvgIcon-root{
+    margin: 10px;
+    
+    height: 20px;
+    color:wheat;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    }
+    
+    
+    .card__footericons1{
+    
+    display: flex;
+    
+    flex: 1;
+    align-items: center;
+    margin: 10px;
+    
+    }
+    .card__footericons1>.MuiSvgIcon-root{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+    }
+    .card__footericonscontent1>p{
+    color: thistle;  
+    font-size: 14px;
+    }
+    .play{
+    
+    margin-top:180px;
+    flex: 1;
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+    position: absolute;
+    }
+    .play>.MuiSvgIcon-root{
+    font-size: 50px;
+    background-color:#2196f3;  
+    }
+    .card__footer1{
+    
+    position: absolute;
+    margin-top: -250px;
+    
+    }
+    .follow1{
+        float: left;
+        margin: 10px;
+        font-size: 15px;
+        color:#2196f3;  
+        font-family: 'Commissioner', sans-serif;
+        
+        font-weight: 900;
+    
+        position: absolute;
+        margin-top: -450px;
+    
+    }
+    
+     */

@@ -1,0 +1,33 @@
+.notification{
+    position: absolute;
+    background-color: white;
+    margin-top: 60px;
+    }
+    .notification_items{
+    
+    position: relative;
+    
+    }
+    .notification_itemsbottom>img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    }
+    .notification_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: white;
+    font-size: 13px;
+    
+    border-bottom: 1px solid lightgray;
+    }
+    .notification_itemstop>p{
+        margin-top: -10px;
+        margin: 10px;
+    }
+    .notification_itemstop>h4{
+       
+        margin: 10px;
+    }

@@ -1,0 +1,376 @@
+.form_main{
+
+display:flex;
+margin-left:20%;
+margin-right:20%;
+align-items:center;
+justify-content:center;
+border:1px solid lightgray;
+}
+.form_1>input{
+margin-top:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:300px;
+height:40px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>select{
+
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:300px;
+height:40px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>textarea{
+
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:300px;
+height:300px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>img{
+
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:300px;
+height:187px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form{
+color: crimson;
+margin-bottom: 10px;
+text-align:center;
+margin-top:50px;
+
+
+}
+@media(max-width:700px){
+
+.form_main{
+    width:100%;
+display:flex;
+margin-left:3%;
+margin-right:5%;
+align-items:center;
+justify-content:center;
+border:none;
+flex-direction:column;
+}
+.form_1>input{
+margin-top:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width: 400px;;
+height:40px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>select{
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+width:400px;
+height:40px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>textarea{
+font-size: 16px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:400px;
+height:300px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1>img{
+
+display:flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+width:400px;
+height:187px;
+border:1px solid lightgray;
+outline-width: 0;
+text-align:center;
+}
+.form_1{
+color: crimson;
+margin-bottom: 10px;
+text-align:center;
+margin-top:100px;
+
+
+}
+
+.form{
+    color: crimson;
+    margin-bottom: 10px;
+    text-align:center;
+    margin-top:0px;
+    width:100%;
+    
+    }
+
+
+
+
+
+
+
+
+}
+.input>input{
+display: none;
+
+}
+.main__posthead>.MuiSvgIcon-root{
+    margin: 10px;
+    color: #2196f3;
+    
+    
+    }
+    .main__post{
+    background-color: white;
+    height: 100vh;
+    
+    }
+    .main__posthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    .main__posthead>p{
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    font-size: 20px;
+    background-color: #2196f3;
+    height: 30px;
+    border-radius: 50px;
+    }
+    .profileImgItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    }
+    .tags{
+    margin: 10px;
+    color: crimson;
+    font-size: 20px;
+    }
+    .profileImg{
+    margin: 10px;
+    }
+    
+    .title__textArea{
+    margin: 10px;
+    
+    
+    }
+    .title__textArea>textarea{
+    height: 60px;
+    border: none;
+    font-size: 16px;
+    outline-width: 0;
+    width: 100%;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: black;
+    }
+    .media___sectionImageOption{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    overflow-x: scroll;
+    
+    }
+    
+    .prevImg>img{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    }
+    .media___sectionImageOption>.MuiSvgIcon-root{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2196f3;
+    color: white;
+    }
+    
+    .media___sectionImageSelected>img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+  
+    
+    }
+    #acceptImg{
+font-size:18px;
+padding:10px 10px;
+opacity: 1;
+
+    }
+    #acceptVid{
+
+
+        font-size:18px;
+        padding:10px 10px;
+        opacity: 1;    
+    }
+    .confirm{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:-500px;
+background-color: #2196f3;
+color: white;
+
+    }
+    .media___sectionImageSelected>video{
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        object-fit:contain;
+        opacity:0.4;
+        }
+    
+    .media___sectionImageSelected{
+    
+    margin: 20px;
+    
+    }
+    .closeup{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 50%;
+    }
+    .crop{
+    position: absolute;
+    margin-top:170px;
+    margin-left: -30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 50%;
+    }
+    
+    .desc__textAREA{
+    
+    
+    margin: 10px;
+    
+    
+    
+    }
+    .desc__textAREA>textarea{
+    
+    height: 150px;
+    border: none;
+    font-size: 20px;
+    outline-width: 0;
+    width: 100%;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: black;
+    
+    
+    
+    
+    }
+    .desc__textAREA>textarea.hashSymbol{
+    
+    color: red;
+    }
+    #btnImg{
+    width: 0px;
+    height: 50px;
+    object-fit:fill;
+    }
+    #btnvideo{
+    width: 0px;
+    height: 50px;
+    }
+    #prevvideo{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit:fill;
+    
+    }
+    
+    
+    .tags__elements{
+      
+     display: flex;
+     align-items:center;
+     justify-content:center;
+     flex-direction:column;
+        }
+        
+        .tags__elements:hover{
+            transform: scale(1.04);
+          
+            
+            }
+    
+
+            .tags__elements>label{
+                margin: 0px;
+                color: rgb(75, 74, 74);
+                
+                        }
+    #btnImg{
+    background-color: red;
+    color: rerd;
+    }
+    .filebase>input{
+    color: rerd;
+        background-color: red;
+    height: 600px;
+    display: none;
+    
+    }

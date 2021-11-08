@@ -1,0 +1,108 @@
+import { DeleteOutlined, FavoriteBorder, FavoriteOutlined } from '@material-ui/icons'
+import React from 'react'
+import Loader from "react-loader-spinner";
+import { useInfiniteQuery } from "react-query";
+import {fetchPosts2} from './api/index'
+import { useStateValue } from "./Stateprovider";
+import { getBasketTotal } from "./reducer";
+import InfiniteScroll from "react-infinite-scroller";
+import Cart from "./Cart";
+
+import './basket.css'
+import { useDispatch, useSelector } from 'react-redux';
+function Basket({id}) {
+    const userDetails=JSON.parse(localStorage.getItem("user"))
+      const removeFromBasket = () => {
+            // remove the item from the basket
+            dispatch({
+                type: 'REMOVE_FROM_BASKET',
+                id: id,
+            })
+        }
+      const [{ basket }, dispatch] = useStateValue();
+      const basketSave=JSON.parse(localStorage.getItem("basket"))
+      const {
+        data,
+        isLoading,
+        isError,
+        hasNextPage,
+        fetchNextPage
+        } = useInfiniteQuery("posts", fetchPosts2, {
+        getNextPageParam: (lastPage, pages) => {
+        if (lastPage.nextPage < lastPage.totalPages) return lastPage.nextPage;
+        return undefined;
+        }
+        });
+        console.log(data)
+
+return (
+    <div className="basketmain">
+<div className="basket">
+    <p>Total items in Basket(9)</p>
+<div className="basketbody">
+    <p>TOTAL PRICE ($56767)</p>
+    <h6>CHECKOUT</h6>
+    <h6>CALL SUPLIER</h6>
+    <main className="main">
+{isLoading ? (<div className="loader10">
+  <Loader
+        type="Puff"
+        color="#00BFFF"
+        height={50}
+        width={50}
+     
+      />
+</div>) : isError ? (
+  <section class="page_404"> <div class="container"> <div class="row"> <div class="col-sm-12 "> <div class="col-sm-10 col-sm-offset-1 text-center"> <div class="four_zero_four_bg"> <h1 class="text-center ">404</h1> </div> <div class="contant_box_404"> <h3 class="h2"> Look like you're lost </h3> <p>the page you are looking for not avaible!</p> <a href="" class="link_404">Go to Home</a> </div> </div> </div> </div> </div> </section>
+) : (
+<InfiniteScroll hasMore={hasNextPage} loadMore={fetchNextPage}
+
+loader={<div className="loader45" key={0}><Loader
+type="Oval"
+color="#00BFFF"
+height={30}
+width={30}
+
+/></div>}
+useWindow={false}
+
+
+
+>
+{data.pages.map((page) =>
+page.results.map((post) => 
+userDetails.uid=post.product_seller_user?"":(
+<Cart
+ post={post}
+image={post.image}
+description={post.product_desc}
+price={post.product_price}
+
+/>
+
+)
+
+)
+)
+}
+</InfiniteScroll>
+)}
+</main>
+</div>  
+
+</div>
+<h5>RECENTLY VIEWED ITEMS</h5>  
+<div className="view">
+
+<div className="viewcontent">
+<img src="https://cdn1.vectorstock.com/i/1000x1000/11/60/electric-cooker-oven-vector-571160.jpg"/> 
+<p>centuries. As a result, the lorem ipsum is no longer
+      considered Latin, even though it looks a lot</p> 
+<p>$400</p>
+</div>
+</div>
+</div>
+)
+}
+
+export default Basket

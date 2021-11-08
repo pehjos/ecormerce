@@ -1,0 +1,62 @@
+.home_row{
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    justify-content: safe;
+    background-color: white;
+    
+    
+    width: 100%;
+    }
+    .productu{
+  
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    }
+    .home_row::-webkit-scrollbar {
+    display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+     .home_row { 
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+     }
+     .productus>p{
+    
+        color: crimson;
+        font-size: 18px;
+    
+     }
+     .loadingPape{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      
+      }
+     @media(max-width:700px){
+
+      .productu{
+  
+         background-color: white;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         overflow-x: hidden;
+       
+         margin-left: 0%;
+         margin-right: 0%;
+         
+         }
+
+     }
+    
+    

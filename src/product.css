@@ -1,0 +1,145 @@
+.productitems>img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+
+    }
+
+
+.vid{
+    display: flex;
+
+
+margin-top: -50px;     
+  }
+.vid>.MuiSvgIcon-root{
+
+background-color:rgba(124, 206, 179, 0.623);
+padding:10px;
+border-radius:50%;
+top:100px;
+
+color: white;
+
+font-size: 30px;
+position:relative;
+margin-left: 40%;
+    }
+    .productitems>video{
+        width: 100%;
+        height: 170px;
+
+       
+        } 
+    .product{
+    width: 100%;
+    background-color:white;
+    border-radius: 5px;
+  
+    }
+    .productgr{
+    display: flex;
+    align-items: center;
+
+    
+    
+    
+    }
+    
+    .productitems{
+
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 5px;
+    height: 300px;
+    width:100%;
+    }
+    .productitems>p{
+      
+        font-family: 'Commissioner', sans-serif;
+      
+        font-family: 'Quicksand', sans-serif;
+        justify-content: baseline;
+        text-decoration: none;
+        color:#333;
+        overflow:hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        text-overflow:ellipsis;
+        -webkit-box-orient: vertical;
+        white-space: wrap;
+        align-items: flex-start;
+       
+        flex: 1;text-align: left;
+        margin: 6px;
+        width: 180px;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select:none;
+    
+    }
+    .actual_per{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    }
+    .actual_per>h4{
+     color:crimson;
+        }
+    .btnsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    
+    }
+    
+    .product1>p{
+    color: crimson;
+    
+    }
+    
+    
+    .actual_per>h6{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: black;
+    padding:3px;
+    
+    background-color: rgba(240, 128, 128, 0.596);
+    
+    border-radius:4px;
+    
+    
+    }
+    .actual_per>p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .btnsection>h5{
+    
+    font-size: 15px;
+    color: green;
+    font-weight: 900;
+    text-align: center;
+    
+    
+    }
+    .btnsection>h4{
+    background-color:crimson;
+    font-size: 12px;
+    color: #fff;
+    padding: 2px
+    }
+     @media(min-width:700px){
+    
+    
+     }
+    
+    
+     
+    

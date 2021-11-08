@@ -1,0 +1,104 @@
+.banner {
+	margin-top: 60px;
+	display: flex;
+	padding: 20px 20px 40px 10px;
+	background-color: white;
+	height: 450px;
+	
+	box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.7);
+	box-sizing: border-box;
+	margin-left: 4%;
+	margin-right:4%;
+}
+
+.banner__image {
+	height: 100px;
+	margin-top: 142px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.banner__image > img {
+	width: 100%;
+
+	object-fit: fill;
+}
+
+.banner__right {
+	display: flex;
+	flex-direction: column;
+	max-width: 240px;
+}
+
+.banner__rightTop {
+	cursor: pointer;
+	background-color: #ff4f00;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 8px 0px 10px 0px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.banner__rightPromo {
+	flex: 1;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.promotion__option {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	margin-left: 20px;
+	border-bottom: 1px solid rgb(182, 179, 179);
+	overflow: hidden;
+}
+
+.promotion__option:hover {
+	cursor: pointer;
+}
+
+.promotion__option:hover > .promotion__optionImage {
+	transform: scale(1.05);
+	transition: 750ms;
+}
+
+.promotion__optionTitle {
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 15px;
+	width: 195px;
+	color: rgb(37, 37, 37);
+}
+
+.promotion__option > img {
+	position: relative;
+	inset: -35px;
+	top: 54px;
+	max-width: 100px;
+	max-height: 80px;
+border-radius: 3px;
+}
+
+.promotion__optionText > span {
+	display: inline-block;
+	text-align: center;
+	background-color: #ff4f00;
+	color: white;
+	padding: 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	border-radius: 10px;
+	max-width: 70px;
+	height: 22px;
+	margin-top: 15px;
+}

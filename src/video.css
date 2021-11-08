@@ -1,0 +1,43 @@
+.video{
+
+height: 190px;
+margin-left: 10%;
+margin-right: 10%;
+
+background-color: rgb(250, 195, 123);
+} 
+.video>video{
+height: 100px;
+
+
+
+
+} 
+
+.video>.MuiSvgIcon-root{
+display: flex;
+align-items: center;
+margin-left:40%;
+color:white;
+background-color:rgba(124, 206, 179, 0.623);
+padding:10px;
+border-radius:50%;
+font-size:50px;
+position: absolute;
+margin-top:70px;
+}
+@media(max-width:700px){
+
+.video{
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+
+}
+.video>video{
+ width: 100%;
+height:190px;
+object-fit: cover;
+
+} 
+}

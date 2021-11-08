@@ -1,0 +1,87 @@
+.drawer_main_company{
+display:flex;
+align-items:center;
+justify-content:center;
+margin: 10px;
+}
+.drawer_main_company>h2{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2px;
+    color:#333;
+    }
+    .drawer_main_company>.MuiSvgIcon-root{
+        font-family: 'Times New Roman', Times, serif;
+           margin: 2px;
+           color:orange;
+           font-size :37px;
+           }
+.drawer_main_header{
+    display:flex;
+    align-items:center;
+  
+    margin: 10px;
+    color:orange;
+}
+.drawer_main_avatar{
+    display:flex;
+    align-items:center;
+    margin: 10px;
+    flex-direction: column;
+font-size:  16px;
+}
+.drawer_main__children{
+
+
+
+    display:flex;
+    align-items:center;
+  
+    margin: 10px;
+text-transform: uppercase;
+font-size:  16px;
+
+
+
+
+}
+.drawer_main__children>p{
+
+
+
+    display:flex;
+    align-items:center;
+  
+    margin: 5px;
+text-transform: uppercase;
+font-size:  13px;
+
+
+
+
+}
+.drawer_main__children>.MuiSvgIcon-root{
+    font-family: 'Times New Roman', Times, serif;
+       margin: 2px;
+       color:gray;
+     
+       }
+       .drawer_main_content>a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 19px;
+        background-color: #232f2eef;
+        height:30px;
+        color:black;
+     
+               }
+       .drawer_main_content>a>p{
+text-decoration: none;
+text-align: center;
+font-size: 19px;
+background-color: #232f2eef;
+height:30px;
+
+border-radius: 6px;
+width:130px;
+margin-left: 20px;
+       }

@@ -1,0 +1,119 @@
+.appbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+ top: 0;
+    z-index: 100;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    .appbardiv1>p{
+       font-size: 20px;
+       margin: 10px;
+    }
+    .appbardiv1>p>b{
+       color: orange;
+       font-weight: 600;
+       font-style: italic;
+     
+    }
+    .appbar>a{
+      text-decoration: none;
+     color: black;
+    }
+    .appbardiv1>p>a{
+     text-decoration: none;
+     
+    }
+    .appbardiv2{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    
+    }
+    .appbardiv3{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    
+    }
+    
+    .icons_texts{
+    margin: 15px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between; 
+    }
+    
+    .icons_texts>.MuiSvgIcon-root{
+      color: rgba(255, 166, 0, 0.719);
+       }
+    
+    .icons_texts>p{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0%;
+    background-color:crimson;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    }
+    
+    
+    .appbardiv{
+color: white;
+height:50px;
+   
+    }
+    .appbardiv>marquee>img{
+      color: white;
+      height:50px;
+      width: 300px;
+       object-fit: cover;
+          }
+    
+    
+    /* @media queries */
+    @media(max-width:600px){
+      .appbardiv{
+         color: white;
+         height:50px;
+          display:none;  
+             }
+             .appbardiv>marquee>img{
+               color: white;
+               height:50px;
+               width: 300px;
+                object-fit: cover;
+                   }
+       .appbardiv3>h6{
+    display: none;
+    
+       }
+       .icons_texts{
+          margin: 5px;
+             display: flex;
+             align-items: center;
+             justify-content: space-between; 
+          }
+        
+    }
+    
+    @media(max-width:350px){
+      
+          .appbardiv2>p{
+    display: none;
+    
+          }
+    }
+    
+    

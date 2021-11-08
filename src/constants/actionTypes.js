@@ -1,0 +1,20 @@
+export const CREATE = 'CREATE';
+export const UPDATE = 'UPDATE';
+
+export const DELETE = 'DELETE';
+export const FETCH_ALL = 'FETCH_ALL';
+export const FETCH_BY_SEARCH = 'FETCH_BY_SEARCH';
+export const FETCH_POST = 'FETCH_POST';
+export const LIKE = 'LIKE';
+export const COMMENT = 'COMMENT';
+export const CART = 'CART';
+export const ORDER = 'ORDER';
+export const CREATECART = 'CREATECART';
+export const CREATEORDER = 'CREATEORDER';
+export const END_LOADING = 'END_LOADING';
+export const START_LOADING = 'START_LOADING';
+export const FETCH_BY_CREATOR = 'FETCH_BY_CREATOR';
+export const DELETECART = 'DELETECART';
+export const DELETEORDER = 'DELETEORDER';
+export const AUTH = 'AUTH';
+export const LOGOUT = 'LOGOUT';

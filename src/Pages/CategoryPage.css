@@ -1,0 +1,77 @@
+.categoryPage {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+}
+
+.categoryPage__top {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 10;
+}
+
+.categoryPage__top>p {
+    background-color: #ff4000;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+}
+
+.categoryPage__topBackIcon {
+    color: #4d4c4c;
+    font-size: 20px !important;
+}
+
+.categoryPage__topSearch {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+    margin: 0 5px;
+}
+
+.categoryPage__topSearchIcon {
+    color: #606060;
+    font-size: 20px !important;
+}
+
+.categoryPage__topSearch>input {
+    width: 100%;
+    border: none;
+    outline-width: 0;
+    margin-left: 5px;
+}
+
+.categoryPage__flex {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    margin-bottom: -7px;
+    padding: 5px;
+    z-index: 10;
+}
+
+.categoryPage__flex>p {
+    display: flex;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.categoryPage__flexIcon {
+    color: #4d4c4c;
+    font-size: 20px !important;
+}
+
+.categoryPage__products {
+    overflow: scroll;
+}
+
+.categoryPage__products::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,144 @@
+.popular{
+  margin-right:0%;
+   margin-left:0%;
+    text-align: center;
+ 
+    background-color: rgb(228, 194, 150);
+    
+    }
+    .populardiv3>img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+     object-fit: cover;
+    
+    }
+    .populardiv2>img{
+    object-fit: cover;
+      width: 80px;
+      height: 80px;
+    border-radius: 50%;
+    
+    
+    }
+    .populardiv2{
+     display: flex;
+    align-items: center;
+    
+    
+    
+    justify-content: space-evenly;
+    
+    }
+    .populardiv3{
+      display: flex;
+     align-items: center;
+    
+    height: 90px;
+    
+     justify-content:space-evenly;
+     }
+     .populardiv1{
+    
+      display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     margin: 10px;
+    overflow-x: hidden;
+     }
+     .populardiv1>h5{
+     font-size: 20px;
+     color: crimson;
+       }
+       .popular>p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    
+       }
+       .populardiv1>.MuiSvgIcon-root{
+    color: orange;
+    font-size: 50px;
+        display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       margin: 10px;
+      overflow-x: hidden;
+       }
+    
+       @media(min-width:700px){
+    
+        .populardiv3>img{
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+         object-fit: cover;
+  
+        }
+        .populardiv2>img{
+        object-fit: cover;
+          width: 180px;
+          height: 180px;
+        border-radius: 50%;
+            
+        
+        }
+        .populardiv2{
+          display: flex;
+         align-items: center;
+         
+         margin-top: 0px;
+         
+    
+         
+         }
+         .populardiv3{
+           display: flex;
+          align-items: center;
+    
+         height: 90px;
+         
+    
+          }
+          .populardiv1{
+         
+           display: flex;
+          align-items: center;
+      
+          margin: 10px;
+         overflow-x: hidden;
+          }
+          .populardiv1>h5{
+          font-size: 20px;
+          color: crimson;
+            }
+            .popular>p{
+         font-size: 30px;
+         font-weight: bold;
+         font-style: italic;
+         
+            }
+            .populardiv1>.MuiSvgIcon-root{
+         color: orange;
+         font-size: 50px;
+             display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 10px;
+           overflow-x: hidden;
+            }
+            .popular{
+           
+            
+                margin-right:10%;
+                 margin-left:10%;
+                  text-align: center;
+               
+            
+              text-align: center;
+              height: 470px;
+            
+              background-color: rgba(144, 238, 144, 0.767);
+              
+              }
+       }
